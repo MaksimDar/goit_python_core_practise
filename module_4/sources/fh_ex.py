@@ -1,0 +1,7 @@
+fh = open('data.txt')
+print(fh)
+# print(fh.read())
+print(fh.read(3))
+print(fh.tell())
+print(fh.read(5))
+print(fh.seek(0))

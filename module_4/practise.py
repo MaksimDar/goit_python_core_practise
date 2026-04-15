@@ -228,17 +228,24 @@
 
 # print(binary_data)
 
-from pathlib import Path
+# from pathlib import Path
 
-# Створення об'єкту Path для файлу
-file_path = Path('/path/to/example.txt')
+# # Створення об'єкту Path для файлу
+# file_path = Path('/path/to/example.txt')
 
-# Перевірка, чи файл існує, перш ніж видаляти
-if file_path.exists():
-    file_path.unlink()
-    print(f'Файл {file_path} було видалено')
-else:
-    print(f'Файл {file_path} не існує')
+# # Перевірка, чи файл існує, перш ніж видаляти
+# if file_path.exists():
+#     file_path.unlink()
+#     print(f'Файл {file_path} було видалено')
+# else:
+#     print(f'Файл {file_path} не існує')
+
+import sys
+import os
+
+print(sys.modules)
+
+
 
 
 

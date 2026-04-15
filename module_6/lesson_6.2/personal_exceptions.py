@@ -1,0 +1,14 @@
+class LessThanZero(Exception):
+    def __init__(self,value):
+        self.value = value
+
+    def __str__(self):
+        return repr(self.value)
+    
+def func(n):
+    if n < 0:
+        raise LessThanZero(f'value {n} is less than zero')
+    else:
+        print(n)
+
+func(-1)
