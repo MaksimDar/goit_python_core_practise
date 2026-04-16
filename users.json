@@ -1,0 +1,23 @@
+[
+  {
+    "name": "John Doe",
+    "phone_number": "1234567890",
+    "address": "123 Main St, New York",
+    "email": "john.doe@example.com",
+    "birthday": "10.05.1995"
+  },
+  {
+    "name": "Anna Smith",
+    "phone_number": "0987654321",
+    "address": "45 Park Ave, London",
+    "email": "anna.smith@example.com",
+    "birthday": "22.11.1998"
+  },
+  {
+    "name": "Orala Smith",
+    "phone_number": "0437654321",
+    "address": "45 Park Ave, Kyiv",
+    "email": "orala.smith@example.com",
+    "birthday": "12.11.1948"
+  }
+]
