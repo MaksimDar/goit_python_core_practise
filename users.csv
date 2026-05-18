@@ -1,4 +1,4 @@
-name;phone_number;address;email;birthday
-John Doe;1234567890;123 Main St, New York;john.doe@example.com;10.05.1995
-Anna Smith;0987654321;45 Park Ave, London;anna.smith@example.com;22.11.1998
-Orala Smith;0437654321;45 Park Ave, Kyiv;orala.smith@example.com;12.11.1948
+name,age,sex
+Roman,22,male
+Oksana,22,female
+Mike,22,male
